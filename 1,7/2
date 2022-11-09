@@ -1,0 +1,18 @@
+//1.7 Второе задание.  Написать программу, которая проверяет является ли год високосным.
+#include <iostream>
+ 
+using namespace std;
+
+int main()
+{
+int x;
+cin >> x;
+
+if(x % 100 == 0 && x % 400 == 0)
+{std::cout<<"leap year";}
+else if(x % 4 == 0)
+{std::cout<<"leap year";}
+else
+{std::cout<<"normal year";}
+return 0;
+}
