@@ -1,0 +1,16 @@
+// 1.7 Четвертое задание. Проверить на чётность введённое с клавиатуры число
+#include <iostream>
+ 
+using namespace std;
+
+int main()
+{
+int a;
+cin >> a;
+
+if(a % 2 == 0)
+{std::cout<<"even number";}
+else
+{std::cout<<"odd number";}
+return 0;
+}
